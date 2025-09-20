@@ -1,0 +1,6 @@
+{
+  "name": " Quonway Game of Life",
+  "description": "An interactive simulation of Conway's Game of Life. Create initial patterns, watch them evolve, and control the simulation with various tools inspired in Q-Flow",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
