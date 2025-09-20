@@ -76,3 +76,15 @@ export const TerminalIcon: React.FC<{className?: string}> = ({className}) => (
         <path strokeLinecap="round" strokeLinejoin="round" d="M8 9l4-4 4 4m0 6l-4 4-4-4" />
     </IconWrapper>
 );
+
+export const ChevronDownIcon: React.FC<{className?: string}> = ({className}) => (
+    <IconWrapper className={className}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+    </IconWrapper>
+);
+
+export const ChevronUpIcon: React.FC<{className?: string}> = ({className}) => (
+    <IconWrapper className={className}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+    </IconWrapper>
+);
